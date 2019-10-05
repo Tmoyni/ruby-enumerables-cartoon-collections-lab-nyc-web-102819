@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(array)
-  # Your code here
+  array.select{ |num| num.length > 4 }
 end
 
 def find_the_cheese(array)
