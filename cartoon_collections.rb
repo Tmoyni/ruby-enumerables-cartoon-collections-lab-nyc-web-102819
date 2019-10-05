@@ -17,4 +17,3 @@ def find_the_cheese(array)
   array.include?(cheese_types)
   end
 nil
-end
